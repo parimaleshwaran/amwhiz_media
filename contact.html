@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/bootstarp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/ae6c58d8f9.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Contactpage</title>
+</head>
+
+<body>
+    <header class="header-section">
+        <nav id="navBar">
+            <ul class="navHeader">
+                <li>
+                    <a href="#" id="icon">
+                        <img src="images/amwhiz_logo.png" alt="amwhiz" width="158" height="79">
+                    </a>
+                </li>
+            </ul>
+            <ul class="mainNavBar">
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Our Works</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Services</a>
+                <a href="#">Our Works</a>
+                <a href="#">About us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact us</a>
+            </div>
+            <span class="open-nav" onclick="openNav()">&#8942;</span>
+        </nav>
+        <div class="contact-section">
+            <div class="contact-row">
+                <h1>Contact us</h1>
+                <p>Donec sollicitudin magnaultric semper. Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="contact-row-clouds">
+                <div id="clouds">
+                    <div class="cloud x1"></div>
+                    <div class="cloud x2"></div>
+                    <div class="cloud x3"></div>
+                    <div class="cloud x4"></div>
+                    <!-- <img src="images/msg.png" class="cloud x4" alt="msg"> -->
+                </div>
+            </div>
+            <div class="contact-row">
+                <img src="images/contact_logo.png" alt="contactlogo" width="264" height="222">
+            </div>
+        </div>
+    </header>
+    <section class="arrow-img">
+        <img src="images/arrow.png" alt="arrow" width="63" height="43">
+    </section>
+    <section class="rocket-display">
+        <img src="images/rocket.png" alt="roket" width="72" height="103">
+    </section>
+    <section class="contact-row-reader">
+        <div class="column-heading">
+            <h1>Contact</h1>
+            <span>Stay close to heart!</span>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here',
+            </p>
+        </div>
+        <div class="rocket">
+            <img src="images/rocket.png" alt="roket" width="126" height="172">
+        </div>
+    </section>
+    <section class="address-section">
+        <div class="column-address">
+            <img src="images/home_twotone.png" alt="home" width="60" height="60">
+            <div class="column-content">
+                <span>Address</span>
+                <address>
+                    122, Office Address, land mark, Chennai. 6000048
+                </address>
+            </div>
+        </div>
+        <div class="column-address">
+            <img src="images/mail_twotone.png" alt="mail" width="60" height="60">
+            <div class="column-content">
+                <span>Email Address</span>
+                <address>
+                    <a href="#">contact@amwhizmedia.com</a>
+                    <a href="#">hello@amwhizmedia.com</a>
+                </address>
+            </div>
+        </div>
+        <div class="column-address">
+            <img src="images/like_twotone.png" alt="like" width="60" height="60">
+            <div class="column-content">
+                <span>Show us that love</span><br>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.10799855323!2d78.61898743672913!3d10.815836759263043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1614086517529!5m2!1sen!2sin"
+            width="100%" height="288" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+    <section class="email-section">
+        <div class="email-row">
+            <div class="email-column">
+                <span>
+                    E-mail
+                </span>
+                <h1>Drop Us that thing!</h1>
+                <div class="email-form">
+                    <form>
+                        <input type="text" id="fname" name="firstname" placeholder="Name" autocomplete="off">
+                        <input type="email" id="emails" name="email" placeholder="amwhiz.com" autocomplete="off">
+                        <textarea placeholder="Enter Message." name="descrip" class="input"
+                            autocomplete="off"></textarea>
+                        <div class="column-form">
+                            <input type="submit" value="Send">
+                        </div>
+                        <div class="column-form-clarity">
+                            <img src="images/clarity_warning.png" alt="clarity" width="18" height="18">
+                        </div>
+                        <div class="column-form-email">
+                            <span>We have ablity
+                                to find that its not a valid email
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="email-column">
+                <img src="images/phoneframe.png" alt="like" width="447" height="492">
+            </div>
+        </div>
+    </section>
+    <section class="map-section-res">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.10799855323!2d78.61898743672913!3d10.815836759263043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1614086517529!5m2!1sen!2sin"
+            width="100%" height="288" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-page">
+            <div class="footer-images">
+                <a href="#"><img src="images/amwhiz_logo.png" alt="logo" width="167" height="84"></a>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout.
+                </p>
+                <div class="footer-icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-services">
+                <div class="footer-page">
+                    <div class="footer-list">
+                        <span>
+                            Services
+                        </span>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">Web-App Development</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Mobile-App Development</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Shopify Integrations</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Whatsapp Chat</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-others">
+                        <span>Others</span>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">We are Hiring.</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Support</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-others-follow">
+                        <span>Follow us</span>
+                        <div class="footer-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="all-copyright">
+        <span>© 2021 Amwhiz Media Pvt. All Rights Received</span>
+    </section>
+    <section class="copyright">
+        <span>All Rights Received 2021</span>
+    </section>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+        const navSlide = () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.mainNavBar');
+            const navLinks = document.querySelectorAll('.mainNavBar li');
+
+            burger.addEventListener('click', () => {
+                //Toggle Lav
+                nav.classList.toggle('navBar-active');
+                //Animate Links
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = '';
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                    }
+                })
+               
+                burger.classList.toggle('toggle');
+            })
+        }
+
+        navSlide();
+    </script>
+</body>
+
+</html>

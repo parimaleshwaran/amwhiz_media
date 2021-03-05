@@ -1,0 +1,117 @@
+.hiring-row {
+    float: left;
+    width: 38.33%;
+}
+.hiring-row img {
+   position: relative;
+   top: 7px;
+}
+.hiring-row-res {
+    display: none;
+}
+.hiring-column-section {
+    margin: auto;
+    padding-right: 65px;
+    padding-left: 75px;
+    padding-top: 80px;
+    background-color: #fffef6;
+    display: flow-root;
+}
+.hiring-page span {
+    font-size: 30px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #939393;
+}
+.hiring-page h1 {
+    font-size: 40px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #6b6b6b;
+    margin-top: 6px;
+}
+.hiring-page p {
+    font-size: 16px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #8c8c8c;
+    margin-top: 24px;
+}
+.hiring-perks {
+    margin-top: 54px;
+}
+.hiring-perks p {
+    font-size: 16px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #8c8c8c;
+    margin-top: 24px;
+}
+.hiring-perks h1 {
+    font-size: 40px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #6b6b6b;
+}
+.hiring-salary {
+    margin-top: 50px;
+}
+.hiring-column-benefits {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 50px; 
+}
+.hiring-column-benefits span{
+   font-size: 20px;
+   font-family: 'Space Mono';
+   font-weight:700 ;
+   color: #4f4f4f; 
+}
+.hiring-column-benefits p{
+    font-size: 14px;
+    font-family: 'Space Mono';
+    font-weight:700 ;
+    color: #8c8c8c; 
+    margin-top: 10px;
+    width: 375px;
+ }
+ /* .hiring-open-section {
+     margin-top: 50px;
+ } */
+ .hiring-open-section p {
+    font-size: 16px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #8c8c8c;
+    margin-top: 24px;
+}
+.hiring-open-section h1 {
+    font-size: 40px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #6b6b6b;
+}
+.hiring-development {
+    margin-top: 50px;
+}
+.hiring-developers {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 50px; 
+}
+.hiring-developers span{
+    font-size: 20px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #4f4f4f;
+    display: flex;
+}
+.hiring-developers p{
+    font-size: 16px;
+    font-family:'Space Mono' ;
+    font-weight: 400;
+    color: #000;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 3px;
+}
