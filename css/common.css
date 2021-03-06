@@ -484,3 +484,200 @@ body[data-aos-duration="1000"] [data-aos] {
 [data-aos="fade-left"] {
   transform: translate(100px);
 }
+.watsapp-section {
+ 
+  /* background-size: 100% 100%;
+  display: inline-block!important; */
+  background-color: #1a4d3e;
+}
+.watsapp-row {
+  float:right;
+  width: 50%;
+  margin-top: 85px;
+  /* margin-bottom: 90px; */
+}
+.watsapp-row h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family:'Space Mono';
+  font-weight: 700;
+}
+.watsapp-row p {
+  color: #ececec;
+  font-size: 20px;
+  font-family:'Space Mono';
+  font-weight: 700;
+}
+.watsapp-phone-section {
+  position: absolute;
+  top: 90px;
+}
+.watsapp-service-section {
+  padding-right: 55px;
+    padding-left: 70px;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -60px;
+}
+.watsapp-address img{
+  background-color: #3aad65;
+  border-radius: 10px;
+  padding: 15px;
+  width: 68px;
+  height: 68px;
+  margin-bottom: 30px;
+}
+.watsapp-address span{
+       font-size:20px;
+        font-family: 'Space Mono';
+        font-weight: 700;
+        color: #3aad65;
+}
+.watsapp-address {
+  float: left;
+  width: 50%;
+  display: flex;
+  margin-top: 82px;
+}
+.watsapp-speacial-section {
+  /* padding-right: 55px;
+  padding-left: 70px; */
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f6ffeb;
+}
+.watsapp-hiring {
+  padding-left: 70px;
+}
+.speacial-service {
+  margin-bottom: 75px;
+  padding-left: 70px;
+}
+.speacial-service h1{
+  font-size: 40px;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    color: #898989;
+}
+.speacial-service span{
+  font-size: 20px;
+    font-family: 'Space Mono';
+    font-weight: 400;
+    color: #8c8c8c;
+    margin-top: 10px;
+}
+.watsapp-choose {
+  text-align: center;
+  padding-top: 74px;
+
+}
+.watsapp-choose h1 {
+  font-size: 30px;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  color: #434343;
+}
+.watsapp-choose span {
+  font-size: 20px;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  color: #a5a5a5;
+}
+/* .watsapp-choose-img {
+  float: left;
+  width: 50%;
+  display: flex;
+  margin-top: 82px;
+}
+.watsapp-choose-address {
+  float: left;
+  width: 50%;
+  display: flex;
+  margin-top: 82px;
+} */
+/* .watsapp-choose-address img {
+  background-color: #fe4949;
+  border-radius: 40px;
+  padding: 10px;
+  width: 41px;
+  height: 41px;
+  margin-bottom: 30px;
+}
+.watsapp-choose-content p {
+  font-size: 16px !important;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  line-height: 20px;
+  color: #8c8c8c;
+  width: 418px;
+  margin-top: 10px;
+} */
+/* .watsapp-choose-content {
+  margin-left: 21px;
+}
+.watsapp-choose-address p{
+  font-size: 16px;
+  font-family:'Space Mono' ;
+  font-weight: 400;
+  color: #8c8c8c;
+  display: inline-block;
+  margin-top: 13px;
+  margin-left: 3px;
+} */
+.watsapp-choose-address {
+  float: left;
+  width: 50%;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+/* .blogs-recentpost img {
+  margin-top: 30px;
+} */
+.watsapp-recentpost p{
+  color: #8c8c8c;
+  font-family:'Space Mono' ;
+  font-size: 16px;
+  font-weight: 700;
+  width: 400px;
+  margin-top: 25px;
+    margin-left: 15px;
+  display: inline-block;
+  }
+  .chooseone {
+    background-color: #fe4949;
+    border-radius: 40px;
+    padding: 10px;
+    width: 41px;
+    height: 41px;
+    margin-top: -35px;
+
+  }
+  .chooseone-2 {
+    background-color: #9868ff;
+    border-radius: 40px;
+    padding: 10px;
+    width: 41px;
+    height: 41px;
+    margin-top: -35px;
+  }
+  .chooseone-3 {
+    background-color: #6094f9;
+    border-radius: 40px;
+    padding: 10px;
+    width: 41px;
+    height: 41px;
+    margin-top: -35px;
+  }
+  .chooseone-4 {
+    background-color: #f960d7;
+    border-radius: 40px;
+    padding: 10px;
+    width: 41px;
+    height: 41px;
+    margin-top: -35px;
+  }
+  .watsapp-chooseone {
+    margin-top: 100px;
+  }
