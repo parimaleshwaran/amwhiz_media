@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/bootstarp.css">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/blogs.css">
+    <link rel="stylesheet" href="css/hiring.css">
+    <link rel="stylesheet" href="css/common.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/ae6c58d8f9.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Ourworkspage</title>
+</head>
+
+<body>
+    <header class="ourworks-section">
+        <nav id="navBar">
+            <ul class="navHeader">
+                <li>
+                    <a href="#" id="icon">
+                        <img src="images/amwhiz_logo.png" alt="amwhiz" width="158" height="79">
+                    </a>
+                </li>
+            </ul>
+            <ul class="mainNavBar">
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Our Works</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Services</a>
+                <a href="#">Our Works</a>
+                <a href="#">About us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact us</a>
+            </div>
+            <span class="open-nav" onclick="openNav()">&#8942;</span>
+        </nav>
+    </header>
+    <section class="ourworks-profile-section">
+        <div class="ourworks-profile">
+            <span>Our dummy text</span>
+            <h1>Our Profile</h1>
+        </div>
+        <div id="outer-circle">
+            <div id="inner-circle">
+            </div>
+        </div>
+    </section>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+        const navSlide = () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.mainNavBar');
+            const navLinks = document.querySelectorAll('.mainNavBar li');
+
+            burger.addEventListener('click', () => {
+                //Toggle Lav
+                nav.classList.toggle('navBar-active');
+                //Animate Links
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = '';
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                    }
+                })
+
+                burger.classList.toggle('toggle');
+            })
+        }
+
+        navSlide();
+    </script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+    <script id="rendered-js">
+        AOS.init({
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
