@@ -1533,3 +1533,29 @@ input[type=yes]:hover {
 .vector-hubspot {
   margin-top: -247px;
 }
+.hubspot-easy-step {
+  background-color: #ffeeeb;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.pull-request-hubspot {
+  background-color: #5fc5ff;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+  padding: 40px;
+}
+.integration-hubspot {
+  background-color: #ff844f;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+  padding: 40px;
+}
+.hubspot-integration {
+  background-color: #ed5acb;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+  padding: 40px;
+}
