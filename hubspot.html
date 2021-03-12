@@ -88,21 +88,21 @@
 
     <section class="hubspot-container-grid">
         <div class="container-grid">
-            <div class="item header"> <img src="images/content_paste.png" alt="home" class="item-header" width="33"
-                    height="47"></div>
-            <div class="item sidebar"> <img src="images/settings_applications.png" alt="home" class="item-header"
-                    width="33" height="47"></div>
-            <div class="item content-1"> <img src="images/inte_instructions.png" alt="home" class="item-header"
-                    width="33" height="47"></div>
-            <div class="item content-2"> <img src="images/clipboard_arrow.png" alt="home" class="item-header" width="33"
-                    height="47"></div>
+            <div class="item header"><img src="images/content_paste.png" alt="home" class="tablinks box box-h" width="33"
+                    height="47" onclick="hubspot(event, 'content')" id="defaultOpen"></div>
+            <div class="item sidebar"> <img src="images/settings_applications.png" alt="home" class="tablinks  box box-h"
+                    width="33" height="47" onclick="hubspot(event, 'setting')"></div>
+            <div class="item content-1"> <img src="images/inte_instructions.png" alt="home" class="tablinks  box box-h" width="33"
+                    height="47" onclick="hubspot(event, 'integration')"></div>
+            <div class="item content-2"> <img src="images/clipboard_arrow.png" alt="home" class="tablinks  box box-h" width="33"
+                    height="47" onclick="hubspot(event, 'clipboard')"></div>
             <!-- <div class="item content-4"> <img src="images/twotone_verifie.png" alt="home" width="33" height="47"></div> -->
-            <div class="item footer"> <img src="images/ion_magnet.png" alt="home" class="item-header" width="33"
-                    height="47"></div>
-            <div class="item footer-3"> <img src="images/schedule_send.png" alt="home" class="item-header" width="33"
-                    height="47"></div>
+            <div class="item footer"> <img src="images/ion_magnet.png" alt="home" class="tablinks  box box-h" width="33"
+                    height="47" onclick="hubspot(event, 'magnet')"></div>
+            <div class="item footer-3"> <img src="images/schedule_send.png" alt="home" class="tablinks  box box-h" width="33"
+                    height="47" onclick="hubspot(event, 'schedule')"></div>
         </div>
-        <div class="speacial-service-hubspot">
+        <div id="content" class="tabcontent">
             <h1>Hubspot Automation</h1>
             <span>It is a long established fact that a reader</span>
             <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
@@ -116,6 +116,124 @@
             <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
                 automation, social media marketing and search engine marketing.</p>
             <span class="help">FAQ’s</span>
+            <!-- <section class="faq-section">
+                <h1>faq’s</h1>
+                <p>Commonly Asked Questions</p> -->
+
+            <div class="hubspot-faq-drawer">
+                <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label
+                    class="hubspot-faq-drawer__title-1" for="faq-drawer">How Does this dummy works?</label>
+                <div class="faq-drawer__content-wrapper">
+                    <div class="faq-drawer__content">
+                        <p>
+                            We are an agency in India, that specializes in marketing technology, inbound marketing,
+                            marketing automation, social media marketing and search engine marketing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hubspot-faq-drawer">
+                <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label
+                    class="hubspot-faq-drawer__title" for="faq-drawer-2">Lorem Ipsum is the best pratice?</label>
+                <div class="faq-drawer__content-wrapper">
+                    <div class="faq-drawer__content">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
+                            of type.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hubspot-faq-drawer">
+                <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label
+                    class="hubspot-faq-drawer__title" for="faq-drawer-3">What is dummy texts?</label>
+                <div class="faq-drawer__content-wrapper">
+                    <div class="faq-drawer__content">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
+                            of type.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="setting" class="tabcontent">
+            <h1>Hubspot Automation Settings</h1>
+            <span>It is a long established fact that a reader</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+
+            <p>‘Digital’ is the new mantra for marketing and keeping up with the latest trends is important in order
+                for your business to achieve its goals and required ROI. Be it SEO, SEM or marketing automation,
+                technical expertise is necessary to truly understand the potential that inbound marketing could have for
+                your business.</p>
+            <span class="help">How we help?</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+        </div>
+        <div id="integration" class="tabcontent">
+            <h1>Hubspot</h1>
+            <span>It is a long established fact that a reader</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+
+            <p>‘Digital’ is the new mantra for marketing and keeping up with the latest trends is important in order
+                for your business to achieve its goals and required ROI. Be it SEO, SEM or marketing automation,
+                technical expertise is necessary to truly understand the potential that inbound marketing could have for
+                your business.</p>
+            <span class="help">How we help?</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+        </div>
+        <div id="clipboard" class="tabcontent">
+            <h1>Hubspot Maintance</h1>
+            <span>It is a long established fact that a reader</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+
+            <p>‘Digital’ is the new mantra for marketing and keeping up with the latest trends is important in order
+                for your business to achieve its goals and required ROI. Be it SEO, SEM or marketing automation,
+                technical expertise is necessary to truly understand the potential that inbound marketing could have for
+                your business.</p>
+            <span class="help">How we help?</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+        </div>
+        <div id="magnet" class="tabcontent">
+            <h1>Hubspot Testing</h1>
+            <span>It is a long established fact that a reader</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+
+            <p>‘Digital’ is the new mantra for marketing and keeping up with the latest trends is important in order
+                for your business to achieve its goals and required ROI. Be it SEO, SEM or marketing automation,
+                technical expertise is necessary to truly understand the potential that inbound marketing could have for
+                your business.</p>
+            <span class="help">How we help?</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+        </div>
+        <div id="schedule" class="tabcontent">
+            <h1>Hubspot reader</h1>
+            <span>It is a long established fact that a reader</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
+
+            <p>‘Digital’ is the new mantra for marketing and keeping up with the latest trends is important in order
+                for your business to achieve its goals and required ROI. Be it SEO, SEM or marketing automation,
+                technical expertise is necessary to truly understand the potential that inbound marketing could have for
+                your business.</p>
+            <span class="help">How we help?</span>
+            <p>We are an agency in India, that specializes in marketing technology, inbound marketing, marketing
+                automation, social media marketing and search engine marketing.</p>
         </div>
     </section>
     <section class="hubspot-speacial-section">
@@ -314,6 +432,25 @@
             duration: 1000
         });
     </script>
+    <script>
+        function hubspot(evt, automation) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(automation).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
 
 </body>
 
