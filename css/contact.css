@@ -1141,6 +1141,10 @@ display: none;
   width: auto !important;
   margin-bottom: 20px !important;
 }
+.hiring-developers-res {
+ display: none;
+
+}
 .uiux-vector {
   display: none;
 }
@@ -1158,7 +1162,7 @@ display: none;
 .service-head-section {
   padding-right: 15px !important;
   padding-left: 15px !important;
-  padding-bottom: 95px;
+  padding-bottom: 73px;
   margin: 0 auto !important;
   width: 100%;
   overflow: hidden;
@@ -1178,6 +1182,7 @@ display: none;
   font-family: 'Space Mono';
   font-weight: 700;
   width: auto !important;
+  margin-bottom: 32px;
 }
 .uiux-frame-art {
   display: none;
@@ -1246,7 +1251,19 @@ margin-top: -97px;
   font-weight: 700;
   width: auto !important;
   margin-top: -9px !important;
-  margin-left: 38px !important;
+  /* margin-bottom: 30px; */
+  margin-left: 40px !important;
+  display: inline-block;
+}
+.watsapp-start {
+  color: #8c8c8c;
+  font-family: 'Space Mono';
+  font-size: 16px !important;
+  font-weight: 700;
+  width: auto !important;
+  margin-top: -9px !important;
+  margin-bottom: 40px;
+  margin-left: 48px !important;
   display: inline-block;
 }
 .ui-privacy {
@@ -1254,12 +1271,12 @@ margin-top: -97px;
   position: relative;
   top: 21px;
 }
-.webapp-easy-step {
+.uiux-easy-step {
   background-color: #f9faff;
   /* margin-top: 0px; */
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 0px !important;
 }
 .webapp-choose {
   text-align: inherit !important;
@@ -1273,46 +1290,53 @@ margin-top: -97px;
 }
 .webapp-choose p {
   font-size: 25px !important;
-  font-family: 'Space Mono';
-  font-weight: 700;
-  color: #434343;
+  color: #6b6b6b !important;
 }
 .webapp-choose span {
- display: none;
+  font-size: 25px !important;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  color: #6b6b6b !important;
+  background-color: transparent !important;
+  border-radius: inherit !important;
+  padding: 0 !important;
+  top: 1px;
 }
 .webapp-img {
   display: none;
 }
 .uiux-img {
 display: block !important;
+margin-top: 50px;
+
 }
 .webapp-request {
-  background-color: #5fc5ff;
+  background-color: #5fc5ff  !important;
   border-radius: 100px;
   width: 80px !important;
   height: 80px !important;
   padding: 22px !important;
 }
 .webapp-inte {
-  background-color: #5fc5ff;
+  background-color: #5fc5ff !important;
   border-radius: 100px;
   width: 80px !important;
   height: 80px !important;
   padding: 22px !important;
 }
 .webapp-integration {
-  background-color: #5fc5ff;
+  background-color: #5fc5ff !important;
   border-radius: 100px;
-  width: 80px;
-  height: 80px;
-  padding: 22px;
+  width: 80px !important;
+  height: 80px !important;
+  padding: 22px !important;
 }
 .webapp-rocket {
-  background-color: #5fc5ff;
+  background-color: #5fc5ff !important;
   border-radius: 100px;
-  width: 80px;
-  height: 80px;
-  padding: 22px;
+  width: 80px !important;
+  height: 80px !important;
+  padding: 22px !important;
 }
 .webapp-number-row {
   margin: auto;
@@ -1322,11 +1346,30 @@ display: block !important;
   float: none !important;
   width: auto !important;
   position: relative;
-  top:62% !important;
+  top: -609px !important;
+  padding-bottom: 4px;
+
 }
-.webapp-numbers span {
+.webapp-01{
   color: #9d9d9d;
-  font-size: 10px;
+  font-size: 10px !important;
+  background-color: #fff;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  border-radius: 50px;
+  display: block;
+  width: 25px !important;
+  height: 25px !important;
+  padding: 5px !important;
+  box-shadow: 0 10px 10px -7px;
+  text-align: center;
+  position: absolute;
+  left: 21px !important;
+  top: 0px;
+}
+.webapp-fluent{
+  color: #9d9d9d;
+  font-size: 10px !important;
   background-color: #fff;
   font-family: 'Space Mono';
   font-weight: 700;
@@ -1339,8 +1382,557 @@ display: block !important;
   text-align: center;
   position: absolute;
   left: 59px !important;
+  top: -7px !important;
+}
+.webapp-solid{
+  color: #9d9d9d;
+  font-size: 10px !important;
+  background-color: #fff;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  border-radius: 50px;
+  display: block;
+  width: 25px !important;
+  height: 25px !important;
+  padding: 5px !important;
+  box-shadow: 0 10px 10px -7px;
+  text-align: center;
+  position: absolute;
+  left: 34px !important;
   top: 0px;
 }
+.webapp-04{
+  color: #9d9d9d;
+  font-size: 10px !important;
+  background-color: #fff;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  border-radius: 50px;
+  display: block;
+  width: 25px !important;
+  height: 25px !important;
+  padding: 5px !important;
+  box-shadow: 0 10px 10px -7px;
+  text-align: center;
+  position: absolute;
+  left: 26px !important;
+  top: 0px;
+}
+.webapp-numbers h1 {
+  font-size: 18px !important;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  display: contents;
+  color: #9d9d9d;
+  /* margin-top: 10px; */
+}
+.webapp-numbers p {
+ margin-left: 88px;
+ width: auto !important;
+}
+.webapp-line-img {
+  margin: auto;
+  width: 94%;
+  height: 765px;
+}
+.uiux-methodology {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  padding-bottom: 80px;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.watsapp-choose {
+  text-align: inherit !important;
+  padding-top: 20px !important;
+}
+.watsapp-choose h1 {
+  font-size: 25px !important;
+  color: #6b6b6b !important;
+}
+.watsapp-choose span {
+  font-size: 18px !important;
+}
+.uiux-address {
+  float: none !important;
+  width: auto !important;
+  margin-top: 60px !important;
+  /* margin-right: 40px; */
+}
+.uiux-chooseone-img {
+  margin-top: 18px !important;
+  float: none !important;
+  width:auto !important;
+  /* margin: auto; */
+  /* width: 100%; */
+}
+.uiux-chooseone-img img {
+  margin: auto;
+    width: 100%;
+}
+.chooseone {
+  position: absolute;
+  margin-top: -7px !important;
+}
+.chooseone-2 {
+ position: absolute;
+  margin-top: -7px !important;
+}
+.chooseone-3 {
+  position: absolute;
+  margin-top: -7px !important;
+}
+.chooseone-4 {
+  position: absolute;
+  margin-top: -7px !important;
+}
+.webapp-projects {
+  margin-top:auto !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 60px !important;
+}
+.webapp-iot h1 {
+  font-size: 25px !important;
+  color: #6b6b6b  !important;
+  text-align: inherit !important;
+ 
+}
+.webapp-iot span {
+  font-size: 18px !important;
+}
+.service-project-row {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-top: 35px !important;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto !important;
+  grid-gap: 20px !important;
+  /* background-color: #2196F3; */
+  padding: 0px !important;
+}
+.uiux-layout-pixies {
+  display: none;
+}
+.uiux-footer-page {
+  width: 100%;
+  padding-left: 15px !important;
+  padding-bottom: 22px !important;
+  top: 0px !important;
+}
+.watsapp-contact-page {
+  width: 100%;
+  padding-left: 15px !important;
+  padding-bottom: 22px !important;
+  top: 0px !important;
+}
+.webapp-footer-page {
+  width: 100%;
+  padding-left: 15px !important;
+  padding-bottom: 22px !important;
+  top: 0px !important;
+  margin-top: -15px !important;
+}
+.Mobileapp-footer-page {
+  width: 100%;
+  padding-left: 15px !important;
+  padding-bottom: 22px !important;
+  top: 0px !important;
+  margin-top: -50px !important;
+}
+/* .watsapp-contact-page {
+  width: 100%;
+  padding-left: 15px !important;
+  padding-bottom: 22px !important;
+  top: 0px !important;
+  margin-top: -50px !important;
+} */
+.uiux-contact-know {
+  float: none !important;
+  width: auto !important;
+  margin-top: 60px !important;
+}
+.uiux-contact-know span {
+  font-size: 18px !important;
+  text-align: center;
+  display: table;
+  margin: auto;
+}
+.uiux-contact-btn {
+  float:none !important;
+  width: auto !important;
+  /* margin-top: 63px; */
+  text-align: center;
+  margin-top: 0px !important;
+}
+.watsapp-green {
+  display: none;
+}
+.watsapp-row {
+  float: none !important;
+  width: auto !important;
+  margin-top: 22px !important;
+  margin-bottom: 0px !important;
+}
+.watsapp-row h1 {
+  font-size: 25px !important;
+}
+.watsapp-row p {
+  font-size: 12px !important;
+  width: 300px;
+}
+.watsapp-phone-section {
+  position: absolute;
+  top: 149px !important;
+  right: 0;
+}
+.watsapp-phone-section img {
+  width: 171px;
+  height: 204px;
+}
+.watsapp-service-section {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-top: 80px !important;
+}
+.our-service h1 {
+  font-size: 25px !important;
+  color: #6b6b6b !important;
+}
+.our-service span {
+  font-size: 18px !important;
+  color: #939393 !important;
+}
+.watsapp-address {
+  float: none !important;
+  width: auto !important;
+  margin-top: 27px !important;
+}
+.hubspot-content address {
+  font-size: 12px !important;
+  width:auto !important;
+}
+.speacial-service {
+  margin-bottom: 30px !important;
+  padding-left: 15px !important;
+  padding-right: 15px;
+}
+.speacial-service h1 {
+  font-size: 25px !important;
+  margin-top: 40px !important;
+}
+.speacial-service span {
+  font-size: 18px !important;
+}
+.watsapp-hiring {
+  padding-left: 15px !important;
+  padding-right: 15px;
+}
+.services-easy-step {
+  margin-top: 0px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.line-img {
+  display: none;
+}
+.watsapp-number-row {
+  margin: auto;
+  padding-left:0px !important;
+}
+.watsapp-numbers {
+  float: none !important;
+  width: auto !important;
+  top: -487px !important;
+  padding-bottom: 1px;
+}
+.wats-res {
+  display: block !important;
+  margin-top: 50px;
+}
+.pull-request {
+  width: 80px !important;
+  height: 80px !important;
+  padding: 25px !important;
+}
+.integration {
+  width: 80px !important;
+  height: 80px !important;
+  padding: 25px !important;
+}
+.watsapp-integration {
+  width: 80px !important;
+  height: 80px !important;
+  padding: 25px !important;
+}
+.watsapp-01 {
+  width: 25px !important;
+  height: 25px !important;
+  padding: 5px !important;
+  font-size: 10px !important;
+  position: absolute;
+  left: 22px !important;
+  top: -21px;
+}
+.watsapp-02 {
+  width: 25px !important;
+  height: 25px !important;
+  padding: 5px !important;
+  position: absolute;
+  left: 43px !important;
+  top: -21px;
+  font-size: 10px !important;
+}
+
+.watsapp-numbers h1 {
+  display: contents;
+  /* margin-top: 10px; */
+}
+.watsapp-numbers p {
+  margin-left: 88px !important;
+  width: auto !important;
+  /* margin-top: 10px; */
+}
+.watsapp-numbers h1 {
+  font-size: 18px !important;
+}
+.watsapp-line-img {
+  margin: auto;
+  width: 95%;
+  height: 521px;
+}
+.webapp-vector {
+  display: none;
+}
+.webapp-row {
+  float: none !important;
+  width: auto !important;
+  margin-top: 42px !important;
+  margin-bottom: 30px !important;
+}
+.webapp-row h1 {
+  font-size: 25px !important;
+}
+.webapp-row p {
+  font-size: 12px !important;
+}
+.webapp-phone-section {
+  top: 221px !important;
+}
+.webapp-phone-section img {
+  width: 380px;
+  height: 252px;
+}
+.webapp-easy-step {
+  background-color: transparent;
+  /* margin-top: 0px; */
+  padding-left: 15px;
+  margin-top: 100px;
+  padding-right: 15px;
+  padding-bottom: 0px !important;
+}
+.webapp-contact-page {
+  padding-left:0px !important;
+}
+.webapp-contact-know {
+  float:none !important;
+  width: auto !important;
+  margin-top: 59px !important;
+}
+.webapp-contact-know span {
+  font-size:25px !important;
+ margin: auto;
+ display:table;
+}
+.webapp-profile-section {
+  display: none !important;
+}
+.ourworks-provide {
+  display: none !important;
+}
+.watsapp-contact-btn {
+  float: none !important;
+  width: auto !important;
+  margin-top: 0px !important;
+  text-align: center;
+}
+.webapp-responsive-section {
+  background-color: #434343;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 66px;
+  display: block !important;
+}
+.webappres-header {
+padding-top: 40px;
+}
+.webapp-responsive-section img {
+ margin: auto;
+display: block;
+}
+.circle-res-section {
+  width: 100%;
+    margin: auto;
+    position: relative;
+    /* padding-top: -36px; */
+    top: -155px;
+    display: block !important;
+}
+
+.webappres-header span {
+  color: #dedede;
+  font-size: 18px;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  /* font-size: 16px; */
+}
+.webappres-header h1 {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  margin-top: 5px !important;
+}
+.webappres-header p {
+  color: #dedede;
+  font-size: 12px;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  margin-top: 5px !important;
+}
+.webapp-layout-pixies {
+  /* background-color: #ffe2d2; */
+  /* display: flow-root !important; */
+  padding-left: 15px !important;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -100px;
+  padding-right: 15px !important;
+}
+.shopify-layout-pixies {
+  /* background-color: #ffe2d2; */
+  /* display: flow-root !important; */
+  padding-left: 15px !important;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  padding-right: 15px !important;
+}
+.shopify-layout-pixies {
+  display: block !important;
+}
+.Mobileapp-layout-para {
+  position: static !important;
+  top: 0 !important;
+}
+.Mobileapp-layout-para span {
+  font-size: 18px !important;
+}
+.Mobileapp-layout-para h1 {
+  font-size: 25px !important;
+}
+.Mobileapp-reader {
+  float: none !important;
+  width: auto !important;
+  margin-top: 0 !important;
+}
+Mobileapp-reader p {
+  font-size: 12px !important;
+  width: auto !important;
+}
+.ourworks-need-img {
+  float:none !important;
+  width:auto !important;
+  margin-top: 25px !important;
+}
+.ourworks-need-img img {
+  width: 100%;
+  margin: auto;
+}
+input[type=know-More] {
+  width: 26% !important;
+}
+.Mobileapp-vector {
+  display: none;
+}
+input[type=know] {
+  width: 44% !important;
+}
+.Mobileapp-row {
+  float: none !important;
+  width: auto !important;
+  margin-top: 32px !important;
+  margin-bottom: 2px !important;
+}
+.Mobileapp-row h1 {
+  font-size: 25px !important;
+}
+.Mobileapp-row p {
+  font-size: 12px !important;
+}
+.Mobileapp-phone-section {
+  top: 209px !important;
+}
+.Mobileapp-phone-section img {
+  width: 252px;
+  height: 238px;
+}
+.shopify-vector {
+  display: none;
+}
+.shopify-row {
+  float: none !important;
+  width: auto !important;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+}
+.shopify-row h1 {
+  font-size: 25px !important;
+}
+.shopify-row p {
+  font-size: 12px !important;
+}
+.shopify-phone-section {
+  top: 162px !important;
+  right: 0px;
+}
+.shopify-phone-section img {
+  width: 100%;
+    margin: auto;
+}
+.shopify-service-section {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  padding-bottom: 30px !important;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 133px !important;
+}
+.shopify-address {
+  float: none !important;
+  width: auto !important;
+  display: flex;
+  margin-top: 28px !important;
+}
+.shopify-screenshot-section {
+  display: none;
+}
+.shopify-screenshot-section-2 {
+  display: none;
+}
+.Mobileapp-reader p {
+  color: #9e9e9e;
+  font-size: 12px !important;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  width:auto !important;
+  margin-top: 20px;
+}
+
 }
 
 

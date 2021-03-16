@@ -91,7 +91,17 @@
 .hiring-development {
     margin-top: 50px;
 }
+.hiring-developers-res {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 50px; 
+}
 .hiring-developers {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 50px; 
+}
+.hiring-developers-res {
     float: left;
     width: 33.33%;
     margin-bottom: 50px; 
@@ -104,6 +114,22 @@
     display: flex;
 }
 .hiring-developers p{
+    font-size: 16px;
+    font-family:'Space Mono' ;
+    font-weight: 400;
+    color: #000;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 3px;
+}
+.hiring-developers-res span{
+    font-size: 20px;
+    font-family:'Space Mono' ;
+    font-weight: 700;
+    color: #4f4f4f;
+    display: flex;
+}
+.hiring-developers-res p{
     font-size: 16px;
     font-family:'Space Mono' ;
     font-weight: 400;
